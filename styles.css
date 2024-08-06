@@ -1,0 +1,42 @@
+.calculator-container {
+  border: solid black 1px;
+  width:29vh;
+  background-color: aqua;
+  overflow: hidden;
+}
+#display {
+  background-color: bisque;
+  border-top: solid black 1px;
+  border-bottom: 2px black solid;
+  height: 7vh;
+  width:29vh;
+  text-align: right;
+  font-size: medium;
+  font-weight: bold;
+  
+}
+
+button{
+height:4vh;
+width:9vw;
+background-color: blueviolet;
+color:wheat;
+border-radius: 2px;
+font-size: medium;
+cursor: pointer;
+}
+button:hover{
+    background-color: rgb(161, 116, 202);
+}
+button:active{
+    background-color: hsl(271, 45%, 82%);
+}
+.calculator-numberpanel{
+    height:20vh;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.operator{
+    background-color: rgb(105, 7, 197);
+}
