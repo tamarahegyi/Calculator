@@ -9,35 +9,26 @@
     <div class="calculator-container">
         <input title="display" id="display" readonly/>
       <div class="calculator-numberpanel">
-        <div class="line1">
-          <button class="operator" id="C" type="button" onclick="clearDisplay()">C</button>
-          <button class="operator" type="button"onclick="clearDisplay()">D</button>
-          <button class="operator" type="button"onclick="appendToDisplay('%')">%</button>
-          <button class="operator" type="button"onclick="appendToDisplay('/')">/</button>
-        </div>
-        <div class="line2">
-          <button type="button" onclick="appendToDisplay('7')">7</button>
-          <button type="button"onclick="appendToDisplay('8')">8</button>
-          <button type="button"onclick="appendToDisplay('9')">9</button>
-          <button class="operator" type="button"onclick="appendToDisplay('*')">*</button>
-        </div>
-        <div class="line3">
-          <button type="button"onclick="appendToDisplay('4')">4</button>
-          <button type="button"onclick="appendToDisplay('5')">5</button>
-          <button type="button"onclick="appendToDisplay('6')">6</button>
-          <button class="operator" type="button"onclick="appendToDisplay('-')">-</button>
-        </div>
-        <div class="line4">
-          <button type="button"onclick="appendToDisplay('1')">1</button>
-          <button type="button"onclick="appendToDisplay('2')">2</button>
-          <button type="button"onclick="appendToDisplay('3')">3</button>
-          <button class="operator" type="button"onclick="appendToDisplay('+')">+</button>
-        </div>
-        <div class="line5">
-          <button type="button"onclick="appendToDisplay('0')">0</button>
-          <button type="button"onclick="appendToDisplay('.')">.</button>
-          <button class="operator" type="button"onclick="appendToDisplay('£')">£</button>
-          <button class="operator" onclick="calculate()" type="button">=</button>
+          <button class="operator keys" id="C" type="button" onclick="clearDisplay()">C</button>
+          <button class="operator keys" type="button"onclick="clearDisplay()">D</button>
+          <button class="operator keys" type="button"onclick="appendToDisplay('%')">%</button>
+          <button class="operator keys" type="button"onclick="appendToDisplay('/')">/</button>
+          <button type="button" class="keys" onclick="appendToDisplay('7')">7</button>
+          <button type="button" class="keys"onclick="appendToDisplay('8')">8</button>
+          <button type="button" class="keys" onclick="appendToDisplay('9')">9</button>
+          <button class="operator keys" type="button"onclick="appendToDisplay('*')">*</button>
+          <button type="button" class="keys" onclick="appendToDisplay('4')">4</button>
+          <button type="button" class="keys" onclick="appendToDisplay('5')">5</button>
+          <button type="button" class="keys" onclick="appendToDisplay('6')">6</button>
+          <button class="operator keys" type="button"onclick="appendToDisplay('-')">-</button>
+          <button type="button" class="keys" onclick="appendToDisplay('1')">1</button>
+          <button type="button" class="keys" onclick="appendToDisplay('2')">2</button>
+          <button type="button" class="keys" onclick="appendToDisplay('3')">3</button>
+          <button class="operator keys" type="button"onclick="appendToDisplay('+')">+</button>
+          <button type="button" class="keys" onclick="appendToDisplay('0')">0</button>
+          <button type="button"class="keys" onclick="appendToDisplay('.')">.</button>
+          <button class="operator keys" type="button"onclick="appendToDisplay('£')">£</button>
+          <button class="operator keys" onclick="calculate()" type="button">=</button>
         </div>
         </div>
       </div>
